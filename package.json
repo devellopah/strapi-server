@@ -9,7 +9,7 @@
     "deploy": "strapi deploy",
     "dev": "strapi develop",
     "develop": "strapi develop",
-    "export": "strapi export",
+    "export": "strapi export --no-encrypt",
     "import": "strapi import",
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
